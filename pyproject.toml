@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "urlchk"
+version = "0.1.0"
+description = "Simple URL health checker"
+authors = ["David Miller <david.r.miller@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.7.0"
+pyright = "^1.1.385"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
